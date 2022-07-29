@@ -49,7 +49,7 @@ public class ClimberController {
         climber.setClimbingShoes(climberDetails.getClimbingShoes());
         climber.setHelmet(climberDetails.getHelmet());
         climber.setChalkBag(climberDetails.getChalkBag());
-        climber.setQuickDraws(climberDetails.getQuickDraws());
+        climber.setQuickdraw(climberDetails.getQuickdraw());
         climber.setRetailPrice(climberDetails.getRetailPrice());
         climber.setQuantity(climberDetails.getQuantity());
 

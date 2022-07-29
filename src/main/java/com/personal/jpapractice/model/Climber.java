@@ -24,21 +24,21 @@ public class Climber {
     private String helmet;
     @Column(name="chalk_bag")
     private String chalkBag;
-    @Column(name="quick_draws")
-    private String quickDraws;
+    @Column(name="quick_draw")
+    private String quickdraw;
     @Column(name="retailPrice")
     private float retailPrice;
     @Column(name="quantity")
     private int quantity;
     public Climber(){}
-    public Climber(String harness, String rope, String belayDevice, String climbingShoes, String helmet, String chalkBag, String quickDraws, float retailPrice, int quantity) {
+    public Climber(String harness, String rope, String belayDevice, String climbingShoes, String helmet, String chalkBag, String quickdraw, float retailPrice, int quantity) {
         this.harness = harness;
         this.rope = rope;
         this.belayDevice = belayDevice;
         this.climbingShoes = climbingShoes;
         this.helmet = helmet;
         this.chalkBag = chalkBag;
-        this.quickDraws = quickDraws;
+        this.quickdraw = quickdraw;
         this.retailPrice = retailPrice;
         this.quantity = quantity;
     }
@@ -115,12 +115,12 @@ public class Climber {
         this.chalkBag = chalkBag;
     }
 
-    public String getQuickDraws() {
-        return quickDraws;
+    public String getQuickdraw() {
+        return quickdraw;
     }
 
-    public void setQuickDraws(String quickDraws) {
-        this.quickDraws = quickDraws;
+    public void setQuickdraw(String quickdraw) {
+        this.quickdraw = quickdraw;
     }
 
     public float getRetailPrice() {
